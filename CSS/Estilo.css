@@ -8,10 +8,40 @@
 body {
   /* tipografia padrão da página */
   font-family: 'Ropa sans', sans-serif;
-  color: #555;
+  color: #333;
   /* reset css do navegador */
   margin: 0;
   padding: 0;
+}
+
+/* estilo dark-theme */
+.dark-theme {
+  background-color: #444;
+  color: #fff;
+}
+
+.dark-theme h1,
+.dark-theme h2 {
+  color: #fff;
+}
+
+.dark-theme section.destaques article {
+  background-color: #555;
+}
+
+.dark-theme section.destaques h2 {
+  color: #fff;
+}
+
+.dark-theme footer {
+  background-color: #222;
+}
+
+.dark-theme form input,
+.dark-theme form textarea {
+  background-color: #555;
+  color: #fff;
+  border: none;
 }
 
 .container {
